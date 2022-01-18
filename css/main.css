@@ -1141,7 +1141,7 @@ h1.intro-header::before {
  * ------------------------------------------------------------------- */
 
 .header-logo {
-  position: absolute;
+  position: relative;
   left: 40px;
   top: 50%;
   -webkit-transform: translateY(-50%);
@@ -1326,9 +1326,9 @@ h1.intro-header::before {
 
 @media only screen and (max-width: 768px) {
   .header-logo a {
-    width: 88px;
-    height: 20px;
-    background-size: 88px 20px;
+    width: 97px;
+    height: 50px;
+    background-size: 97px 50px;
   }
   #header-nav-wrap {
     display: none;
